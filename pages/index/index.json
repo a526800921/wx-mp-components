@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "first-component": "/components/FirstComponent/FirstComponent",
+    "toast-c": "/components/Toast/Toast",
+    "carousel-notice": "/components/CarouselNotice/CarouselNotice"
+  },
+  "onReachBottomDistance": 10
+}

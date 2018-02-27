@@ -1,0 +1,2 @@
+<!--components/FirstComponent/FirstComponent.wxml-->
+<view class='text-wrap'>FirstComponent</view>

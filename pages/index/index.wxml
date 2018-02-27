@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<first-component />
+<toast-c toast-show="{{toastShow}}" />
+<button bindtap="onShowHide">Action</button>
+<carousel-notice open-roll="{{openRoll}}" defined-style="color: #f99;" notice-text="noticeText" />

@@ -1,0 +1,4 @@
+/* components/FirstComponent/FirstComponent.wxss */
+.text-wrap {
+  word-wrap: break-word;
+}
