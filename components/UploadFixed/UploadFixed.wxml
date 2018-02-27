@@ -1,0 +1,4 @@
+<!--components/UploadFixed/UploadFixed.wxml-->
+<view class='upload-box'>
+  上传产品
+</view>

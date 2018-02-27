@@ -2,7 +2,8 @@
   "usingComponents": {
     "first-component": "/components/FirstComponent/FirstComponent",
     "toast-c": "/components/Toast/Toast",
-    "carousel-notice": "/components/CarouselNotice/CarouselNotice"
+    "carousel-notice": "/components/CarouselNotice/CarouselNotice",
+    "upload-fixed": "/components/UploadFixed/UploadFixed"
   },
   "onReachBottomDistance": 10
 }
