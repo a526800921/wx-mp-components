@@ -4,3 +4,4 @@
 ## 组件列表
 * FirstComponent - 测试组件
 * CarouselNotice - 文字跑马灯
+* CellTab - 跳转卡片

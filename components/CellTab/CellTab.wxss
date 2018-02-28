@@ -1,0 +1,44 @@
+/* components/CellTab/CellTab.wxss */
+.cell-box {
+  height: 90rpx;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  padding: 0 20rpx;
+}
+
+.cell-box:active  {
+  background-color: #e9e9e9;
+}
+
+.cell-box:active .cell-arrow::after {
+  border-left-color: #e9e9e9;
+}
+
+.cell-text {
+  
+}
+
+.cell-arrow {
+  position: relative;
+  z-index: 1;
+}
+
+.cell-arrow::after,
+.cell-arrow::before {
+  content: ' ';
+  position: absolute;
+  z-index: 2;
+  width: 0;
+  height: 0;
+  border: 16rpx solid transparent;
+  border-left: 16rpx solid #fff;
+  left: -40rpx;
+  top: -16rpx;
+}
+
+.cell-arrow::before {
+  border-left-color: #666;
+  left: -38rpx;
+}

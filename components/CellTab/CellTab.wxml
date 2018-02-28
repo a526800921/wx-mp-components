@@ -1,0 +1,5 @@
+<!--components/CellTab/CellTab.wxml-->
+<view class='cell-box'>
+  <view class='cell-text'>{{cellText}}</view>
+  <view class='cell-arrow'></view>
+</view>
