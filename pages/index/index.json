@@ -4,7 +4,8 @@
     "toast-c": "/components/Toast/Toast",
     "carousel-notice": "/components/CarouselNotice/CarouselNotice",
     "upload-fixed": "/components/UploadFixed/UploadFixed",
-    "cell-tab": "/components/CellTab/CellTab"
+    "cell-tab": "/components/CellTab/CellTab",
+    "round-image": "/components/RoundImage/RoundImage"
   },
   "onReachBottomDistance": 10
 }

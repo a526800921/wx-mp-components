@@ -4,4 +4,5 @@
 <button bindtap="onShowHide">Action</button>
 <carousel-notice open-roll="{{openRoll}}" defined-style="color: #f99;" notice-text="CarouselNotice" />
 <upload-fixed />
-<view style='height: 100rpx; background-color: #ddd;padding: 10rpx 0;'><cell-tab /></view>
+<view style='height: 100rpx; background-color: #ddd; padding: 10rpx 0; margin-bottom: 20rpx;'><cell-tab cell-info="18888888888" /></view>
+<round-image />

@@ -11,3 +11,6 @@
 * CellTab - 跳转卡片
 
 ![跳转卡片](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/CellTab.jpg)
+* RoundImage - 圆形图片
+
+![圆形图片](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/RoundImage.jpg)
