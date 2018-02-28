@@ -23,6 +23,7 @@
 .cell-arrow {
   position: relative;
   z-index: 1;
+  padding-right: 50rpx;
 }
 
 .cell-arrow::after,
@@ -34,11 +35,11 @@
   height: 0;
   border: 16rpx solid transparent;
   border-left: 16rpx solid #fff;
-  left: -40rpx;
-  top: -16rpx;
+  right: 0;
+  top: 8rpx;
 }
 
 .cell-arrow::before {
   border-left-color: #666;
-  left: -38rpx;
+  right: -2rpx;
 }
