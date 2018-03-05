@@ -5,7 +5,8 @@
     "carousel-notice": "/components/CarouselNotice/CarouselNotice",
     "upload-fixed": "/components/UploadFixed/UploadFixed",
     "cell-tab": "/components/CellTab/CellTab",
-    "round-image": "/components/RoundImage/RoundImage"
+    "round-image": "/components/RoundImage/RoundImage",
+    "attach-info-input": "/components/AttachInfoInput/AttachInfoInput"
   },
   "onReachBottomDistance": 10
 }

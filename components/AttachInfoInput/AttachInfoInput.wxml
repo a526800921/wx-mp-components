@@ -1,0 +1,6 @@
+<!--components/AttachInfoInput/AttachInfoInput.wxml-->
+<view class='input-box'>
+  <view class='input-atta'>{{attaValue}}</view>
+  <input class='input-in' value='{{value}}' placeholder='{{placeholder}}' type='{{type}}' password='{{password}}' disabled='{{disabled}}' maxlength='{{maxlength}}' cursor-spacing='{{cursorSpacing}}' focus='{{focus}}' confirm-type='confirmType' bindinput='_onInput' bindfocus='_onFocus' bindblur='_onBlur' bindconfirm='_onConfirm'></input>
+  <view class='input-units'>{{attaUnits}}</view>
+</view>

@@ -3,6 +3,9 @@
 <toast-c toast-show="{{toastShow}}" />
 <button bindtap="onShowHide">Action</button>
 <carousel-notice open-roll="{{openRoll}}" defined-style="color: #f99;" notice-text="CarouselNotice" />
-<upload-fixed />
+<upload-fixed bindtap="uploads" />
 <view style='height: 100rpx; background-color: #ddd; padding: 10rpx 0; margin-bottom: 20rpx;'><cell-tab cell-info="18888888888" /></view>
-<round-image />
+<round-image bindtap='goLogs' />
+<button bindtap='requireImport'>require or import</button>
+
+<view style='height: 100rpx; background-color: #ddd; padding: 10rpx 0; margin-bottom: 20rpx;'><attach-info-input bindinput='onInputs' /></view>

@@ -1,5 +1,7 @@
 //logs.js
 const util = require('../../utils/util.js')
+let store = require('../../store.js')
+let app = getApp().globalData
 
 Page({
   data: {
@@ -11,5 +13,9 @@ Page({
         return util.formatTime(new Date(log))
       })
     })
+  },
+  showStore() {
+    console.log(store)
+    console.log(app)
   }
 })

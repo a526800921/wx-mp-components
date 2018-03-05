@@ -14,3 +14,6 @@
 * RoundImage - 圆形图片
 
 ![圆形图片](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/RoundImage.jpg)
+* AttachInfoInput - 带信息的输入框
+
+![带信息的输入框](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/AttachInfoInput.jpg)

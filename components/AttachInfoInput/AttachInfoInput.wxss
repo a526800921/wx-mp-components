@@ -1,0 +1,22 @@
+/* components/AttachInfoInput/AttachInfoInput.wxss */
+.input-box {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  height: 90rpx;
+  padding: 0 20rpx;
+}
+
+.input-atta {
+
+}
+
+.input-in {
+  flex: 1;
+  text-align: right;
+  padding: 0 20rpx;
+}
+
+.input-units {
+
+}
