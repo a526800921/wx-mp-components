@@ -1,5 +1,5 @@
 <!--components/CarouselNotice/CarouselNotice.wxml-->
-<view class="notice-box" style='{{definedStyle}}'>
+<view class="notice-box notice-box-css">
   <view class="notice-roll {{openRoll ? 'notice-animation' : ''}}">
     <view class="notice-text {{openRoll ? '' : 'notice-text-align'}}">{{noticeText}}</view>
     <view class="notice-text" wx:if="{{openRoll}}">{{noticeText}}</view>
