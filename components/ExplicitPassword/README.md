@@ -1,4 +1,4 @@
-/*
+
  * @Author: Jafish 
  * @Date: 2018-03-14 15:01:34
  * @Action: 显式的密码输入框
@@ -10,7 +10,6 @@
  *      调用示例： this._explicitPassword({ // 用于显示或隐藏该组件，不传参数时则默认隐藏
                     show: true // 显示或者隐藏
                   })
- */
 
 
  ![显式的密码输入框](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/ExplicitPassword.jpg)
