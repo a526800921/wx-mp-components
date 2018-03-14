@@ -5,22 +5,24 @@ let store = require('../../store.js')
 
 Page({
   data: {
-    toastShow: false,
     openRoll: true,
   },
-  onLoad () {
-    
+  onLoad() {
+
   },
-  onShowHide(){
+  onReady() {
+
+  },
+  onShowHide() {
     // 点击隐藏显示切换
-    this.setData({
-      toastShow: !this.data.toastShow
+    this._explicitPassword({
+      show: true
     })
   },
-  onReachBottom(e){
+  onReachBottom(e) {
     console.log('触底')
   },
-  uploads(e){
+  uploads(e) {
     console.log(e)
   },
   goLogs() {
@@ -38,5 +40,12 @@ Page({
     // value
     console.log(e)
     e.detail.returnValue(1)
-  }
+  },
+  pwdAchieve(e) {
+    console.log('密码', e.detail.value)
+    // setTimeout(() => e.detail.disable(), 2000)
+  },
+  pwdForget() {
+    console.log('忘记密码')
+  } 
 })

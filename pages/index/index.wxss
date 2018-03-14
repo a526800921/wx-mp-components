@@ -1,1 +1,5 @@
 /**index.wxss**/
+
+.carousel-notice-css {
+  color: #f78;
+}

@@ -1,9 +1,0 @@
-<!--components/Toast/Toast.wxml-->
-<view class="toast-box {{_toastAnimation ? 'toast-animation-show' : 'toast-animation-hide'}}" wx:if="{{_toastShow}}">
-  <view class="toast-icon">
-    <!-- <image src="></image> -->
-      <icon color="{{iconColor}}" size="{{iconSize}}" type="success_no_circle"></icon>  
-     <!-- <icon color="{{iconColor}}" size="{{iconSize + 5}}" type="cancel"></icon>  -->
-  </view>
-  <view class="toast-text">这里是提示的内容弟弟</view>
-</view>

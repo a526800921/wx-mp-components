@@ -1,8 +1,8 @@
 <!--index.wxml-->
 <first-component />
-<toast-c toast-show="{{toastShow}}" />
+<explicit-password bind:pwdAchieve="pwdAchieve" pwd-length="6" bind:pwdForget="pwdForget" />
 <button bindtap="onShowHide">Action</button>
-<carousel-notice open-roll="{{openRoll}}" defined-style="color: #f99;" notice-text="CarouselNotice" />
+<carousel-notice open-roll="{{openRoll}}" notice-box-css="carousel-notice-css" notice-text="CarouselNotice" />
 <upload-fixed bindtap="uploads" />
 <view style='height: 100rpx; background-color: #ddd; padding: 10rpx 0; margin-bottom: 20rpx;'><cell-tab cell-info="18888888888" /></view>
 <round-image bindtap='goLogs' />
