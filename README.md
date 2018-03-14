@@ -17,6 +17,6 @@
 * AttachInfoInput - 带信息的输入框
 
 ![带信息的输入框](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/AttachInfoInput.jpg)
-* ExplicitPassword - 显式的密码输入框
+* ExplicitPassword - [显式的密码输入框](https://github.com/a526800921/wx-mp-components/tree/master/components/ExplicitPassword)
 
 ![带信息的输入框](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/ExplicitPassword.jpg)
