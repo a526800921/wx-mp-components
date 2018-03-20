@@ -5,6 +5,7 @@
  * @Action: 圆形图片
  * @Param: {String} imageSrc - 图片路径
  * @Param: {Number} imageSize - 图片尺寸（单位rpx）
+ * @Param: {String} class-c - 组件class样式
  */
 
 Component({
@@ -18,9 +19,10 @@ Component({
     },
     imageSize: { // 图片尺寸
       type: Number,
-      value: 140,
+      value: 0,
     }
   },
+  externalClasses: ['class-c'],
 
   /**
    * 组件的初始数据

@@ -3,9 +3,11 @@
   overflow: hidden;
   border-radius: 50%;
   display: inline-block;
+  width: 140rpx;
+  height: 140rpx;
 }
 
-.round-image {
+.round-img {
   height: inherit;
   width: inherit;
   display: block;
