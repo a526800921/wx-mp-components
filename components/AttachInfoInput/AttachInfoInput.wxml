@@ -1,6 +1,10 @@
 <!--components/AttachInfoInput/AttachInfoInput.wxml-->
 <view class='input-box'>
-  <view class='input-atta'>{{attaValue}}</view>
-  <input class='input-in' value='{{value}}' placeholder='{{placeholder}}' type='{{type}}' password='{{password}}' disabled='{{disabled}}' maxlength='{{maxlength}}' cursor-spacing='{{cursorSpacing}}' focus='{{focus}}' confirm-type='confirmType' bindinput='_onInput' bindfocus='_onFocus' bindblur='_onBlur' bindconfirm='_onConfirm'></input>
-  <view class='input-units'>{{attaUnits}}</view>
+  <view class='input-atta' style='color: {{pass ? "#000" : "red"}};'>{{attaValue}}</view>
+  <input class='input-in' style='text-align: {{validation ? "left" : "right"}};' value='{{value}}' placeholder='{{placeholder}}' type='{{type}}' password='{{password}}' disabled='{{disabled}}' maxlength='{{maxlength}}' cursor-spacing='{{cursorSpacing}}' focus='{{focus}}' confirm-type='confirmType' bindinput='_onInput'
+    bindfocus='_onFocus' bindblur='_onBlur' bindconfirm='_onConfirm'></input>
+  <view class='input-units' style='{{validation ? "flex: 0 0 25px;" : ""}}'>
+    <icon wx:if="{{validation && !_onceBulr}}" type="{{pass ? 'success' : 'warn'}}" size='25' color="{{pass ? 'green' : 'red'}}"></icon>
+    <text wx:elif="{{!validation}}">{{attaUnits}}</text>
+  </view>
 </view>
