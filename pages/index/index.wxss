@@ -3,3 +3,7 @@
 .carousel-notice-css {
   color: #f78;
 }
+
+.round-image {
+  margin-top: 50rpx;
+}

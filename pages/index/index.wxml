@@ -5,7 +5,7 @@
 <carousel-notice open-roll="{{openRoll}}" notice-box-css="carousel-notice-css" notice-text="CarouselNotice" />
 <upload-fixed bindtap="uploads" />
 <view style='height: 100rpx; background-color: #ddd; padding: 10rpx 0; margin-bottom: 20rpx;'><cell-tab cell-info="18888888888" /></view>
-<round-image bindtap='goLogs' />
+<round-image bindtap='goLogs' image-size="{{180}}" class-c="round-image" />
 <button bindtap='requireImport'>require or import</button>
 
 <view style='height: 100rpx; background-color: #ddd; padding: 10rpx 0; margin-bottom: 20rpx;'><attach-info-input bindinput='onInputs' /></view>
