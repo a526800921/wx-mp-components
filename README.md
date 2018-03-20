@@ -20,6 +20,6 @@
 * [ExplicitPassword](https://github.com/a526800921/wx-mp-components/tree/master/components/ExplicitPassword) - 显式的密码输入框
 
 ![显式的密码输入框](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/ExplicitPassword.jpg)
-* [ExplicitPassword](https://github.com/a526800921/wx-mp-components/tree/master/components/Loadmore) - 加载中/完成
+* [Loadmore](https://github.com/a526800921/wx-mp-components/tree/master/components/Loadmore) - 加载中/完成
 
 ![加载中/完成](https://raw.githubusercontent.com/a526800921/wx-mp-components/master/github_image/Loadmore.jpg)
